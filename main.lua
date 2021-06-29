@@ -7,8 +7,8 @@ points=0
 
 enemy_list={}
 
-require "Drone"
-require "BadDrone"
+require "drone"
+require "baddrone"
 
 function fillBadGuy()
     for i=1,6 do
