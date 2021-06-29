@@ -1,5 +1,5 @@
 Drone = {
-    position = {x=0,y=0},
+    position = {x=120,y=350},
     random_move = {x=0,y=0,object_x=0,object_y=0},
     color = nil,
     speed = 0,
