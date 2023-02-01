@@ -105,9 +105,7 @@ function stage1_draw()
 
     love.graphics.setColor( 1, 1 ,1,1 )
     for i=1,6 do
-       --love.graphics.rectangle("fill", badguyArrayX[i], badguyArrayY[i],BadGuy:getWidth()/2, BadGuy:getHeight()/2 )
        enemy_list[i]:draw2()
-       --love.graphics.draw(BadGuy, badguyArrayX[i] , badguyArrayY[i], 0,0.5,0.5)
     end
     love.graphics.print(tostring(points) , 750, 10)
     if (splosion>0) then
